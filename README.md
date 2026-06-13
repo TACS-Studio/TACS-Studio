@@ -1,6 +1,7 @@
+<div align="center">
+
 # 👋 欢迎来到 TACS Studio
 
-<div align="center">
   <img src="https://img.shields.io/badge/Welcome-TACS%20Studio-brightgreen" />
   <img src="https://img.shields.io/badge/License-MIT-blue" />
 </div>
