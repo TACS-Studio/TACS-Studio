@@ -9,7 +9,7 @@
 
 ## 🎯 关于我 | About Me
 我是 **TACS Studio** 的开发者，主业是在 Termux 里折腾各种安全工具，副业是跟 GitHub 推送失败斗智斗勇。
-顺带提一嘴：本人目前还是在校初中生，学业优先，工具更新速度随缘，催更也没用哈哈🤣
+顺带提一嘴：本人目前还是在校初中生，工具更新速度随缘，催更也没用哈哈🤣
 
 I'm the developer of TACS Studio. I mainly build various security tools on Termux, and fighting with GitHub push failures is my daily fun.
 By the way, I'm still a junior high school student. Schoolwork comes first, so updates may be slow. Don't rush me 😂
