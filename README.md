@@ -1,5 +1,4 @@
-# 👋 欢迎来到 TACS Studio | Welcome to TACS Studio
-
+# 👋 欢迎来到 TACS Studio
 <div align="center">
   <img src="https://img.shields.io/badge/Welcome-TACS%20Studio-brightgreen" />
   <img src="https://img.shields.io/badge/License-MIT-blue" />
@@ -7,96 +6,73 @@
 
 ---
 
-## 🎯 关于我 | About Me
-我是 **TACS Studio** 的开发者，主业是在 Termux 里折腾各种安全工具，副业是跟 GitHub 推送失败斗智斗勇。
-顺带提一嘴：本人目前还是在校初中生，工具更新速度随缘，催更也没用哈哈🤣
+## 🎯 关于我
+TACS Studio 唯一开发者，天天泡在Termux里写安全工具，日常最大难题就是GitHub推送频繁翻车。
+实打实学渣一枚，文化课摆烂，唯独折腾手机终端脚本上头，更新看空闲时间，随缘迭代🤣
 
-I'm the developer of TACS Studio. I mainly build various security tools on Termux, and fighting with GitHub push failures is my daily fun.
-By the way, I'm still a junior high school student. Schoolwork comes first, so updates may be slow. Don't rush me 😂
+I'm the sole developer of TACS Studio. I spend most of my time writing security tools for Termux, and fighting failed Git pushes is my daily routine.
+I’m not good at schoolwork at all, but I’m obsessed with developing scripts on mobile terminals. Project updates depend on my spare time.
 
-### 📦 工具箱来历 | Origin of This Toolkit
-「TACS工作室」实际只有我一人独立维护开发，整套工具全部利用课余空闲时间编写完成，是适配手机Termux环境的纯本地渗透学习工具合集。
-当初因为手机没法获取 Root 权限，设备环境也处处受限，常规工具都不好用，索性一头死磕**无 Root 方案**，慢慢打磨出了这套工具箱，不用 Root 也能正常跑。
+### 📦 工具箱来历
+整个项目从头到尾只有我一个人维护、写代码、修bug、写文档。全套工具专门适配安卓手机Termux环境，主打无Root运行方案。
+当初手机拿不到Root权限，市面上现成工具适配性差，干脆自己从零写脚本，慢慢整合做成完整工具箱。
+全程自学网络安全相关内容，最开始只是写零散脚本给自己测着玩，后面功能越堆越多打包成套。更新周期大概3-5天一轮，长期目标攒够100个独立安全小工具，全程开源免费给同好拿来学习。
 
-本人零基础自学网络安全相关知识，最开始只是随手写零散Python脚本自己练手，后来慢慢整合统一做成工具箱。项目更新节奏稳定3~5天推送一次迭代，长期开发目标是完成合计100个功能独立的安全小工具，全部开源免费给同好学习使用。
+所有工作全由我一人包揽：源码编写、功能迭代、漏洞修复、配套文档、合规说明，同时优化新手使用门槛，工具仅限在自有设备、自建靶场环境使用。
+踩遍移动端沙箱、权限限制、老旧机型兼容的各种坑，内置一键部署、批量备份、错误自检功能，开箱就能用。
 
-**唯一开发/文档维护**：包揽全部代码编写、功能更新、BUG修复、配套文档撰写、合规声明整理，兼顾新手使用门槛优化，全程把控工具使用边界，仅允许用于自有设备、自建靶场学习。
+"TACS Studio" is fully maintained by myself. All tools are coded for mobile Termux, with core support for non-root devices.
+I built this toolkit because mainstream software works poorly on unrooted Android phones, so I developed all scripts from scratch.
+I self-studied cybersecurity from zero. The project updates every 3 to 5 days, and my long-term goal is to release 100 independent open-source security tools for learners.
 
-从十几份零散小脚本起步，踩遍移动端无Root、系统沙箱、权限限制各类坑，反复调试适配老旧安卓机型，最终打包成自带一键部署、批量备份、报错自查功能的完整工具包。
+**Sole Developer & Document Manager**: I write all source code, fix bugs, compose documents and set usage rules. All tools can only be operated on your own devices or self-built target labs.
+I solved tons of compatibility issues including system sandbox limits and old Android adaption. The complete kit supports one-click installation, batch backup and built-in error troubleshooting.
 
-"TACS Studio" is independently maintained by only myself. All tools are coded in spare time, this kit is a penetration testing learning collection specially built for mobile Termux.
-I created this toolkit because my phone has no Root access and the operating environment is quite restricted. Regular tools didn't work well, so I focused on making **non-Root solutions**. Everything runs perfectly without Root.
-
-I taught myself cybersecurity knowledge from scratch. At first I just wrote scattered Python scripts for self-practice, then gradually integrated all codes into a unified toolkit. The project updates every 3 to 5 days stably, and my long-term goal is to develop 100 independent security tools totally open-source for fellow learners.
-
-**Sole Developer & Document Manager**: I write all source code, update functions, fix bugs, compose documents and sort compliance statements. I keep optimizing experience for newbies and strictly define usage limits: all tools can only be used on your own devices or self-built target labs.
-
-I started with a dozen separate scripts, and solved tons of compatibility issues including non-root limits, system sandbox blocks and old Android device adaption. Now the complete kit supports one-click installation, batch backup and built-in error troubleshooting.
-
-### 🔧 我的热情 | My Interests
-- 🛠️ 编写 Termux 专用安全脚本，好用才是王道
-  Develop dedicated security scripts for Termux
-- 🧪 研究各类网络技术与测试玩法
-  Explore network technology and testing methods
-- 📚 持续学习新技术，不断充实自己
-  Keep learning new skills and making progress
-- 🤝 和大家一起打磨项目，越做越好
-  Improve projects together with the open-source community
+### 🔧 日常捣鼓的东西
+- 🛠️ 适配Termux的安全脚本，能用省事优先
+- 🧪 网络探测、漏洞测试相关技术实操
+- 📚 不停补代码、网络相关知识
+- 🤝 和同好交流工具使用体验，提bug和优化思路都收
 
 ---
 
-## 🛠️ 技术栈（真实在用）| Tech Stack (Actually Used)
-别问我会不会全栈，我的主战场就在 Termux：
-Don't ask about full-stack skills. Termux is my main battlefield:
-- **主力语言 | Main Languages**：Python、Bash
-- **运行环境 | Environment**：老旧安卓手机 + Termux | Old Android devices + Termux
-- **常用工具 | Tools**：Git、GitHub
-- **开发方向 | Focus**：网络信息收集、漏洞扫描、安全辅助脚本 | Network scanning & security auxiliary scripts
+## 🛠️ 在用技术栈
+主战场就是安卓Termux，没搞花里胡哨的全栈：
+- **主力语言**：Python、Bash
+- **运行环境**：安卓手机 + Termux
+- **版本管理**：Git、GitHub
+- **开发方向**：信息搜集、端口扫描、漏洞测试辅助脚本
 
 ---
 
-## 📌 主要项目 | Main Project
-### ✨ 特色项目 | Featured Project
-- **TACS-Pentest-Kit**：一套专为 Termux 打造的综合工具箱，功能齐全，上手简单。
-  A full-featured toolkit designed for Termux, easy to use.
+## 📌 核心项目
+### ✨ TACS-Pentest-Kit
+专门给Termux做的全套渗透学习工具箱，功能堆得很全，部署简单，无Root也能完整运行。
 
 ---
 
-## 🎓 学习兴趣 | Learning Interests
-- 网络安全与终端开发 | Cybersecurity & terminal development
-- 低配设备性能优化 | Performance optimization for low-spec devices
-- 开源项目维护与分享 | Open-source project maintenance
+## 🎓 感兴趣的方向
+- 终端环境网络安全开发
+- 低配安卓设备性能优化
+- 开源项目维护与迭代
 
 ---
 
-## 📫 联系方式（全渠道上线，欢迎唠嗑🤣）| Contact Info
-> 💡 小提示：快手、抖音属于国内平台，海外用户可能无法访问
-> 💡 Notice: Kuaishou & Douyin are domestic platforms, unavailable overseas.
-
-- 邮箱 | Email：3929699948@qq.com
-- 投诉/开发邮箱 | Complaint & Dev Email：TACS-Studio@outlook.com
-- QQ：3929699948
-- 快手号 | Kuaishou ID：5055473848
-- 抖音号 | Douyin ID：78924033930
+## 📫 联系方式
+仅留微软开发邮箱，其余渠道全部删掉：
+- 开发沟通邮箱：TACS-Studio@outlook.com
 - 💻 GitHub：[@TACS-Studio](https://github.com/TACS-Studio)
-- 📬 问题反馈可提交 Issues，看到就会回复（网速随缘）
-  Feel free to submit Issues, I will reply as soon as possible.
+- 问题反馈直接提Issues，有空就回复
 
-**GitHub仓库地址 | Repository Link**：<https://github.com/TACS-Studio/tacs-pentest-kit>
+**GitHub仓库地址**：<https://github.com/TACS-Studio/tacs-pentest-kit>
 
 ---
 
-## 🤝 支持与合作 | Support & Cooperation
-欢迎大家：
-You are welcome to:
-- ⭐ 点亮 Star，鼓励一下开发者
-  Star this project to support me
-- 🐛 反馈 Bug、提出优化建议
-  Report bugs and give suggestions
-- 🔄 提交 PR，一起完善项目
-  Submit Pull Requests to improve the toolkit
-- 💬 交流技术、分享使用心得
-  Discuss technology and usage experience
+## 🤝 支持与合作
+- ⭐ 点Star就是最好的支持
+- 🐛 发现bug、有优化想法直接提
+- 🔄 愿意改代码可以提交PR一起完善
+- 💬 欢迎交流技术，讨论工具实操心得
 
 ---
 
@@ -127,10 +103,6 @@ Under the terms of the MIT License, you are free to:
 **Mandatory Rule**: The original copyright and license notice must be fully reserved in all copies or modified versions.
 
 > **Disclaimer**: THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. If users apply these tools for illegal scanning, data theft or other law-breaking acts, all legal liabilities shall be borne solely by the end user, and the developer takes no responsibility.
-
-### 🔗 第三方开源组件声明 | Third-Party Open Source Component Notice
-- **终端神龙主题脚本**：基于开源项目 `LaBestia-Ssj/termux-dbz-theme-Shen-Long` (原作者：LaBestia-Ssj) 二次微调适配工具箱，该组件遵循其原始开源协议，所有归属权归原作者所有。
-- **Terminal Shenlong Theme Script**: Secondary optimized based on open-source repo `LaBestia-Ssj/termux-dbz-theme-Shen-Long` (Author: LaBestia-Ssj). This component follows its original open-source license, all rights belong to the original creator.
 
 ---
 
@@ -164,4 +136,4 @@ SOFTWARE.
   [![Made with ❤️ by TACS Studio](https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-TACS%20Studio-ff69b4)]()
 </div>
 
-> —— TACS工作室 单人开发者 | Solo Developer of TACS Studio
+> —— TACS工作室 单人开发者
